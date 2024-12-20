@@ -1,0 +1,26 @@
+.card-body {
+    background-color: rgb(179,167,153);
+}
+
+[class="btn btn-primary"] {
+    background-color: rgb(139,127,113);
+    border-color: rgb(255, 255, 255);
+}
+
+.box {
+    border: 2px solid #ffffff; /* Толщина, стиль и цвет рамки */
+    border-radius: 10px;    /* Скругление углов */
+    padding: 5px;          /* Пространство внутри рамки */
+    width: 130px;           /* Ширина элемента */
+    text-align: center;     /* Центрирование текста внутри */
+    transition: border-color 1.3s ease;
+    color: aliceblue;
+}
+
+.box:hover {
+    border-color: rgb(0, 80, 9); /* Цвет рамки при наведении */
+}
+
+.col-lg-10 {
+    padding: 15px;
+}
